@@ -1,0 +1,164 @@
+2017-12-25T02:00:06.278Z - normal: Load ~/.CocosCreator/settings.json
+2017-12-25T02:00:06.283Z - normal: checking language setting...
+2017-12-25T02:00:06.283Z - normal: Language: en
+2017-12-25T02:00:08.392Z - success: protocol editor-framework registered
+2017-12-25T02:00:08.393Z - success: protocol app registered
+2017-12-25T02:00:08.393Z - success: protocol theme registered
+2017-12-25T02:00:08.393Z - success: protocol profile registered
+2017-12-25T02:00:08.393Z - success: protocol packages registered
+2017-12-25T02:00:08.393Z - success: protocol unpack registerred
+2017-12-25T02:00:08.393Z - success: protocol disable-commonjs registerred
+2017-12-25T02:00:08.884Z - normal: connected!
+2017-12-25T02:00:08.889Z - normal: Check project E:\cocoscreator\cocos\start_project
+2017-12-25T02:00:08.897Z - normal: Initializing Cocos2d
+2017-12-25T02:00:09.865Z - normal: Initializing Asset Database
+2017-12-25T02:00:09.957Z - success: protocol uuid registerred
+2017-12-25T02:00:09.957Z - success: protocol db registerred
+2017-12-25T02:00:09.957Z - success: protocol thumbnail registerred
+2017-12-25T02:00:09.957Z - normal: Loading editor/builtin packages
+2017-12-25T02:00:10.022Z - success: anysdk loaded
+2017-12-25T02:00:10.225Z - success: assets loaded
+2017-12-25T02:00:10.228Z - success: builder loaded
+2017-12-25T02:00:10.232Z - success: hierarchy loaded
+2017-12-25T02:00:10.245Z - success: inspector loaded
+2017-12-25T02:00:10.247Z - success: keystore loaded
+2017-12-25T02:00:10.250Z - success: node-library loaded
+2017-12-25T02:00:10.252Z - success: package-asset loaded
+2017-12-25T02:00:10.255Z - success: preferences loaded
+2017-12-25T02:00:10.273Z - success: project-importer loaded
+2017-12-25T02:00:10.276Z - success: project-settings loaded
+2017-12-25T02:00:10.279Z - success: ui-kit loaded
+2017-12-25T02:00:10.287Z - success: ui-grid loaded
+2017-12-25T02:00:10.291Z - success: scene loaded
+2017-12-25T02:00:10.292Z - success: sprite-editor loaded
+2017-12-25T02:00:10.297Z - success: store loaded
+2017-12-25T02:00:10.304Z - success: timeline loaded
+2017-12-25T02:00:10.304Z - normal: Loading builtin packages
+2017-12-25T02:00:10.342Z - success: asset-db-debugger loaded
+2017-12-25T02:00:10.344Z - success: code-editor loaded
+2017-12-25T02:00:10.354Z - success: color-picker loaded
+2017-12-25T02:00:10.360Z - success: console loaded
+2017-12-25T02:00:10.363Z - success: package-manager loaded
+2017-12-25T02:00:10.376Z - success: sdkbox loaded
+2017-12-25T02:00:10.379Z - success: tester loaded
+2017-12-25T02:00:10.381Z - success: ui-kit-preview-extra loaded
+2017-12-25T02:00:10.383Z - success: ui-kit-preview loaded
+2017-12-25T02:00:10.385Z - success: ui-tree loaded
+2017-12-25T02:00:12.031Z - normal: Initializing project E:\cocoscreator\cocos\start_project
+2017-12-25T02:00:12.035Z - normal: Loading packages
+2017-12-25T02:00:12.047Z - normal: Watching packages
+2017-12-25T02:00:12.073Z - normal: Run Application
+2017-12-25T02:00:14.457Z - success: preview server running at http://localhost:7456
+2017-12-25T02:00:21.420Z - normal: 1.5.1
+2017-12-25T02:13:16.477Z - failed: [db-task][create] Exception  Error: EEXIST: file already exists, mkdir 'E:\cocoscreator\cocos\start_project\assets\textures\PurpleMonster.png'
+    at Error (native)
+    at fs.mkdirSync (fs.js:922:18)
+    at Object.fs.mkdirSync (ELECTRON_ASAR.js:700:16)
+    at Object.mkdirsSync (D:\CocosCreator\resources\app.asar\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:29:9)
+    at s._ensureDirSync (D:\CocosCreator\resources\app.asar\asset-db\lib\internal.js:1:4059)
+    at s.Tasks.create (D:\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:21290)
+    at D:\CocosCreator\resources\app.asar\asset-db\index.js:1:2046
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:987:13
+    at Immediate.process (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:953:21)
+    at runCallback (timers.js:574:20)
+2017-12-25T02:13:16.479Z - error: Failed to create asset db://assets/textures/PurpleMonster.png/New Folder, messages: Error: EEXIST: file already exists, mkdir 'E:\cocoscreator\cocos\start_project\assets\textures\PurpleMonster.png'
+    at Error (native)
+    at fs.mkdirSync (fs.js:922:18)
+    at Object.fs.mkdirSync (ELECTRON_ASAR.js:700:16)
+    at Object.mkdirsSync (D:\CocosCreator\resources\app.asar\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:29:9)
+    at s._ensureDirSync (D:\CocosCreator\resources\app.asar\asset-db\lib\internal.js:1:4059)
+    at s.Tasks.create (D:\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:21290)
+    at D:\CocosCreator\resources\app.asar\asset-db\index.js:1:2046
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:987:13
+    at Immediate.process (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:953:21)
+    at runCallback (timers.js:574:20)
+    at s.AssetDB.error (D:\CocosCreator\resources\app.asar\asset-db\lib\utils.js:1:2582)
+    at Object.callback (D:\CocosCreator\resources\app.asar\asset-db\lib\interface.js:1:5437)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at D:\CocosCreator\resources\app.asar\asset-db\index.js:1:2120
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:987:13
+    at Immediate.process (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:953:21)
+2017-12-25T02:13:29.322Z - failed: [db-task][create] Exception  Error: EEXIST: file already exists, mkdir 'E:\cocoscreator\cocos\start_project\assets\textures\PurpleMonster.png'
+    at Error (native)
+    at fs.mkdirSync (fs.js:922:18)
+    at Object.fs.mkdirSync (ELECTRON_ASAR.js:700:16)
+    at Object.mkdirsSync (D:\CocosCreator\resources\app.asar\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:29:9)
+    at s._ensureDirSync (D:\CocosCreator\resources\app.asar\asset-db\lib\internal.js:1:4059)
+    at s.Tasks.create (D:\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:21290)
+    at D:\CocosCreator\resources\app.asar\asset-db\index.js:1:2046
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:987:13
+    at Immediate.process (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:953:21)
+    at runCallback (timers.js:574:20)
+2017-12-25T02:13:29.323Z - error: Failed to create asset db://assets/textures/PurpleMonster.png/New Folder, messages: Error: EEXIST: file already exists, mkdir 'E:\cocoscreator\cocos\start_project\assets\textures\PurpleMonster.png'
+    at Error (native)
+    at fs.mkdirSync (fs.js:922:18)
+    at Object.fs.mkdirSync (ELECTRON_ASAR.js:700:16)
+    at Object.mkdirsSync (D:\CocosCreator\resources\app.asar\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:29:9)
+    at s._ensureDirSync (D:\CocosCreator\resources\app.asar\asset-db\lib\internal.js:1:4059)
+    at s.Tasks.create (D:\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:21290)
+    at D:\CocosCreator\resources\app.asar\asset-db\index.js:1:2046
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:987:13
+    at Immediate.process (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:953:21)
+    at runCallback (timers.js:574:20)
+    at s.AssetDB.error (D:\CocosCreator\resources\app.asar\asset-db\lib\utils.js:1:2582)
+    at Object.callback (D:\CocosCreator\resources\app.asar\asset-db\lib\interface.js:1:5437)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:906:35
+    at _arrayEach (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:85:13)
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:898:17
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at D:\CocosCreator\resources\app.asar\asset-db\index.js:1:2120
+    at D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:987:13
+    at Immediate.process (D:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:953:21)
+2017-12-25T02:14:22.435Z - normal: Compiled project javascript file successfully
+2017-12-25T02:14:27.506Z - normal: Compiled project javascript file successfully
+2017-12-25T02:14:35.431Z - normal: Compiled project javascript file successfully
+2017-12-25T02:15:38.138Z - normal: Compiled project javascript file successfully
+2017-12-25T02:16:01.669Z - normal: Compiled project javascript file successfully
+2017-12-25T02:17:56.059Z - normal: Compiled project javascript file successfully
+2017-12-25T02:18:13.289Z - normal: Compiled project javascript file successfully
+2017-12-25T02:21:14.962Z - normal: Compiled project javascript file successfully
+2017-12-25T02:21:41.488Z - normal: Load worker timeout, reload worker.
+2017-12-25T02:21:43.778Z - normal: Compiled project javascript file successfully
+2017-12-25T02:21:52.043Z - normal: Compiled project javascript file successfully
+2017-12-25T02:26:09.513Z - normal: Compiled project javascript file successfully
+2017-12-25T02:26:34.874Z - normal: Compiled project javascript file successfully
+2017-12-25T02:26:41.125Z - normal: Compiled project javascript file successfully
+2017-12-25T02:27:12.534Z - normal: Compiled project javascript file successfully
+2017-12-25T02:28:15.930Z - normal: Compiled project javascript file successfully
+2017-12-25T02:28:24.645Z - normal: Compiled project javascript file successfully
+2017-12-25T02:32:06.086Z - normal: Compiled project javascript file successfully
+2017-12-25T02:35:28.317Z - failed: [db-task][sync-changes] Failed to import asset E:\cocoscreator\cocos\start_project\assets\scripts\Game.js, message: Compile error: SyntaxError: unknown: Unexpected token (28:4)
+  26 |     onLoad: function () {
+  27 |         this.groundY = 
+> 28 |     },
+     |     ^
+  29 | 
+  30 |     // called every frame, uncomment this function to activate update callback
+  31 |     // update: function (dt) {
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4443:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1755:8)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3740:12)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3484:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3464:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3394:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3371:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3334:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3357:23)
+    at Parser.pp$3.parseExpression (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3296:19)
+2017-12-25T02:39:18.924Z - normal: Compiled project javascript file successfully
+2017-12-25T02:39:19.949Z - success: VS Code extension installed to C:\Users\lucy\.vscode\extensions
+2017-12-25T02:41:46.968Z - success: API data generated and copied to E:\cocoscreator\cocos\start_project\creator.d.ts
+2017-12-25T02:49:53.918Z - normal: Compiled project javascript file successfully
+2017-12-25T02:52:04.178Z - normal: Compiled project javascript file successfully
+2017-12-25T02:52:13.533Z - success: API data generated and copied to E:\cocoscreator\cocos\start_project\creator.d.ts
+2017-12-25T02:58:36.058Z - normal: Compiled project javascript file successfully
+2017-12-25T02:59:04.834Z - normal: Compiled project javascript file successfully
+2017-12-25T03:01:00.487Z - normal: Compiled project javascript file successfully
+2017-12-25T03:03:12.895Z - normal: Compiled project javascript file successfully
+2017-12-25T03:05:49.474Z - normal: Compiled project javascript file successfully
+2017-12-25T03:08:39.852Z - normal: Compiled project javascript file successfully
+2017-12-25T03:14:34.075Z - normal: Compiled project javascript file successfully
+2017-12-25T03:22:25.621Z - normal: Compiled project javascript file successfully
