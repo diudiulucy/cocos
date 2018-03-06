@@ -3712,18 +3712,18 @@
     "groupIndex": 0
   },
   {
-    "__type__": "ee776x1GjxLnomLOa4Kcybn",
+    "__type__": "5a706a6nMZFjqdUoeoVojXT",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 99
     },
     "_enabled": true,
-    "buttonAudio": {
-      "__uuid__": "d1dc6a27-92ea-4598-a45b-689c382fdea1"
-    },
     "bgm": {
       "__uuid__": "90676645-5249-4abf-9b79-6938a301b51a"
+    },
+    "buttonAudio": {
+      "__uuid__": "d1dc6a27-92ea-4598-a45b-689c382fdea1"
     }
   },
   {
@@ -3795,7 +3795,7 @@
     "rankCount": 6
   },
   {
-    "__type__": "03fcf4voNZDuo+p9Kc7SqT2",
+    "__type__": "c3114HgxrtD9Ycnn7o7wLRM",
     "_name": "",
     "_objFlags": 0,
     "node": {
